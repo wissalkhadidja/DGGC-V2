@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+scikit-learn
+torch
+hdbscan
+matplotlib
+joblib
+cdbw
