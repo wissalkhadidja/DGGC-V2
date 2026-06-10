@@ -1,0 +1,17 @@
+{
+  "metric": "euclidean",
+  "algorithm": "best",
+  "cluster_selection_method": "eom",
+  "alpha": 1.0,
+  "cluster_selection_epsilon": 0.0,
+  "allow_single_cluster": false,
+  "leaf_size": 40,
+  "minkowski_p": null,
+  "min_cluster_size": 30,
+  "min_samples": 3,
+  "relative_validity": 0.759308268053384,
+  "selection_score": 0.759308268053384,
+  "noise": 0.0,
+  "coverage": 1.0,
+  "n_clusters": 3
+}

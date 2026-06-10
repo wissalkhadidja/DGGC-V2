@@ -1,0 +1,77 @@
+{
+  "name": "hubness_stress_d10_seed42",
+  "seed": 42,
+  "standardize_initial": true,
+  "hidden": [
+    128,
+    128
+  ],
+  "dropout": 0.0,
+  "epochs": 10,
+  "batch_size": 512,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "reference": "gaussian_full",
+  "flow_steps": 100,
+  "flow_step_size": 0.02,
+  "normalize_gradient": true,
+  "renormalize_each_step": false,
+  "save_every": 1,
+  "device": "cuda",
+  "hdbscan_min_cluster_sizes": [
+    5,
+    10,
+    20,
+    30,
+    50,
+    80,
+    120,
+    200
+  ],
+  "hdbscan_min_samples_values": [
+    1,
+    3,
+    5,
+    10,
+    15,
+    20,
+    30,
+    50
+  ],
+  "hdbscan_metrics": [
+    "euclidean",
+    "manhattan",
+    "cosine"
+  ],
+  "hdbscan_cluster_selection_methods": [
+    "eom",
+    "leaf"
+  ],
+  "hdbscan_alpha_values": [
+    1.0
+  ],
+  "hdbscan_minkowski_p_values": [
+    1.5,
+    2.0,
+    3.0
+  ],
+  "hdbscan_cluster_selection_epsilon_values": [
+    0.0,
+    0.05
+  ],
+  "hdbscan_allow_single_cluster_values": [
+    false,
+    true
+  ],
+  "hdbscan_leaf_size_values": [
+    20,
+    40
+  ],
+  "hdbscan_selection_criterion": "relative_validity",
+  "projection_methods": [
+    "pca",
+    "lda_classes",
+    "lda_clusters"
+  ],
+  "grid_size_density": 150
+}
